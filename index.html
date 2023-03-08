@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- link para pegar icones "https://www.w3schools.com/icons/fontawesome_icons_intro.asp"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="principal">
+    <!-- inicio menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ciência Today</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novidades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Aprenda Mais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- termino menu-->
+    <div class="container">
+
+    <!-- inicio carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Planets2013-unlabeled.jpg" height="649px"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__340.jpg" height="649px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1333071678/pt/foto/earth-planet-surface-in-outer-space-stars-and-milky-way-on-background-sci-fi-space-wallpaper.jpg?b=1&s=170667a&w=0&k=20&c=FJ7uN4tXdRrjgYNmsbe6BVEGlp-to_7a-KmkmGp8cVI=" height="649px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+
+    <!-- termino carousel-->
+
+    <!-- Inicio cards-->
+    <div class="card-group">
+        <div class="card">
+          <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2022/09/22/766x527/1_jupiter-26487633.jpeg" height="318px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Júpiter</h5>
+            <p class="card-text">Júpiter é o maior planeta do Sistema Solar, tanto em diâmetro quanto em massa, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://imagens.climatempo.com.br/climapress/galeria/2021/04/750x553_8124a038a0c8cba7399d2e9e8d155934.jpg" height="318px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Marte</h5>
+            <p class="card-text">Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://conteudo.imguol.com.br/c/noticias/1d/2022/06/23/saturno-1656018896945_v2_900x506.jpg" height="318px"class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Saturno</h5>
+            <p class="card-text">Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar atrás de Júpiter. Pertencente ao grupo dos gigantes gasosos, possui cerca de 95 massas terrestres e orbita a uma distância média de 9,5 unidades astronômicas.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Termino cards-->
+    <footer>
+      <div class="container-footer">
+          <div class="row-footer">
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Empresa</h4>
+                  <ul>
+                      <li><a href="#"> Quem somos </a></li>
+                      <li><a href=""> nossos serviços </a></li>
+                      <li><a href=""> política de privacidade </a></li>
+                      <li><a href=""> programa de afiliados</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Obter ajuda</h4>
+                  <ul>
+                      <li><a href="#">SAC</a></li>
+                      <li><a href="#">Transporte</a></li>
+                      <li><a href="#">devoluções</a></li>
+                      <li><a href="#">Status De Pedido</a></li>
+                      <li><a href="#">Opções De Pagamento</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Loja online</h4>
+                  <ul>
+                      <li><a href="#">Relógio</a></li>
+                      <li><a href="#">Saco</a></li>
+                      <li><a href="#">Calçado</a></li>
+                      <li><a href="#">Endereço</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Se subescreva!</h4>
+                  <div class="form-sub">
+                      <form>
+                          <input type="email" placeholder="Digite o seu e-mail" required>
+                          <button>subscrever</button>
+                      </form>
+                  </div>
+
+                  <div class="medias-socias">
+                      <a href="https://www.linkedin.com/in/%C3%ADtalo-ara%C3%BAjo-083aa325a/"> <i class="fa fa-facebook"></i> </a>
+                      <a href="https://www.linkedin.com/in/%C3%ADtalo-ara%C3%BAjo-083aa325a/"> <i class="fa fa-instagram"></i> </a>
+                      <a href="https://www.linkedin.com/in/%C3%ADtalo-ara%C3%BAjo-083aa325a/"> <i class="fa fa-twitter"></i> </a>
+                      <a href="https://www.linkedin.com/in/%C3%ADtalo-ara%C3%BAjo-083aa325a/" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+                  </div>
+
+              </div>
+              <!--end footer col-->
+          </div>
+      </div>
+</footer>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
